@@ -1,0 +1,32 @@
+body {
+    background-image: url("../images/login_bg_img.jpeg");
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 40000s;
+    animation-name: fade;
+    animation-duration: 40000s;
+  }form {
+    font-family: Helvetica, sans-serif;
+  }
+  
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.7;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.7;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
